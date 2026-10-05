@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — MENEW Digital Menus</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         max-width: 720px; margin: 0 auto; padding: 48px 20px; line-height: 1.6; color: #1a1a1a; background: #fff; }
+  @media (prefers-color-scheme: dark) { body { color: #e8e8e8; background: #111; } }
+  h1 { font-size: 2rem; margin-bottom: .25rem; }
+  h2 { font-size: 1.25rem; margin-top: 2rem; }
+  h3 { font-size: 1rem; margin-top: 1.25rem; }
+  .updated { font-size: .85rem; opacity: .5; margin-bottom: 2rem; }
+  hr { border: none; border-top: 1px solid rgba(128,128,128,.2); margin: 1.5rem 0; }
+  table { width: 100%; border-collapse: collapse; font-size: .9rem; margin-top: .5rem; }
+  th, td { text-align: left; padding: 8px 12px 8px 0; border-bottom: 1px solid rgba(128,128,128,.2); }
+  code { font-family: ui-monospace, Menlo, monospace; font-size: .85em; }
+  a { color: inherit; }
+  footer { margin-top: 3rem; font-size: .85rem; opacity: .4; }
+</style>
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated: 5 October 2026</p>
+
+  <h2>1. Who we are</h2>
+  <p>MENEW Digital Menus ("MENEW", "we") is a digital menu platform operated from Egypt. When you
+  scan a QR code at a venue that uses MENEW, you interact with our service. Questions about this
+  policy can be directed to <a href="mailto:omar@oezzelarab.com">omar@oezzelarab.com</a>.</p>
+
+  <hr>
+  <h2>2. What we collect and why</h2>
+
+  <h3>Device identifier (essential)</h3>
+  <p>We generate a random device ID and store it in a cookie and your browser's local storage, with a
+  7-day sliding expiry. This ID lets the menu remember your basket between page loads and recognise
+  returning visits. We do not use fingerprinting techniques (no canvas, WebGL, font, or hardware
+  enumeration).</p>
+
+  <h3>Anonymous browsing events (analytics)</h3>
+  <p>We record which items you view, how long they are visible, which videos you play, and what you add
+  to or remove from your basket. These events are linked to your device ID, not your name or phone
+  number. Venue owners see only aggregated statistics — they cannot identify individual visitors. You
+  can decline this in the consent banner.</p>
+
+  <h3>Phone number (only if you sign in)</h3>
+  <p>If you choose to sign in with your phone number, we verify it via a one-time code sent over
+  WhatsApp. Your number is <strong>never stored in plain text</strong> — it is encrypted with a key held
+  only on our servers, and we store a separate one-way hash used solely to look you up. We display only
+  a masked version (e.g. +20 ••• •••• 4567). We use your number to deliver the one-time code and, if you
+  allow it, to notify you about your first-visit discount status. We never share it with venue owners or
+  third-party marketers.</p>
+
+  <h3>Preferences</h3>
+  <p>If you set dietary or taste preferences (e.g. vegetarian, spicy), we store them on your profile to
+  personalise the menu. You can change or clear them at any time.</p>
+
+  <hr>
+  <h2>3. How we share data</h2>
+  <ul>
+    <li><strong>Venue owners</strong> receive aggregated analytics for their own venue. They never see
+    individual device IDs or phone numbers.</li>
+    <li><strong>Service providers</strong> — our database (Supabase/PostgreSQL) and hosting
+    infrastructure process data on our behalf under confidentiality obligations. One-time codes are
+    delivered via the WhatsApp Business Platform (Meta Platforms Ireland Ltd.).</li>
+    <li>We do <strong>not</strong> sell, rent, or trade your data to any third party.</li>
+  </ul>
+
+  <hr>
+  <h2>4. How long we keep data</h2>
+  <ul>
+    <li><strong>Anonymous analytics events</strong> are kept to maintain the accuracy of venue rankings
+    and personalisation. They contain no name or contact information.</li>
+    <li><strong>Your diner profile</strong> (phone hash, preferences, visit history) is kept until you
+    delete your account. Deleting removes your profile; existing analytics rows are anonymised.</li>
+    <li><strong>Redemption records</strong> for welcome discounts are kept for fraud-prevention and
+    accounting purposes even after account deletion, in pseudonymised form.</li>
+  </ul>
+
+  <hr>
+  <h2>5. Your rights</h2>
+  <ul>
+    <li><strong>Decline analytics</strong> — tap "Decline" on the consent banner at any time.</li>
+    <li><strong>Delete your account</strong> — tap "Delete my account" in your profile. Your phone entry
+    and preferences are removed immediately.</li>
+    <li><strong>Data access or questions</strong> — email
+    <a href="mailto:omar@oezzelarab.com">omar@oezzelarab.com</a> and we will respond within 14 days.</li>
+  </ul>
+
+  <hr>
+  <h2>6. Cookies</h2>
+  <p>We set first-party cookies only. No third-party advertising or tracking cookies are placed.</p>
+  <table>
+    <thead><tr><th>Name</th><th>Purpose</th><th>Expiry</th></tr></thead>
+    <tbody>
+      <tr><td><code>menew_did</code></td><td>Persistent device identifier</td><td>7 days (sliding)</td></tr>
+      <tr><td><code>menew_consent</code></td><td>Stores your analytics consent choice</td><td>1 year</td></tr>
+      <tr><td><code>menew_diner_sess</code></td><td>Diner authentication session (if signed in)</td><td>7 days</td></tr>
+    </tbody>
+  </table>
+
+  <hr>
+  <h2>7. Changes to this policy</h2>
+  <p>We may update this policy as the service evolves. The "Last updated" date reflects the most recent
+  revision. Continued use of MENEW after a change constitutes acceptance of the updated policy.</p>
+
+  <footer>&copy; 2026 MENEW Digital Menus. All rights reserved.</footer>
+</body>
+</html>
